@@ -1,0 +1,12 @@
+{
+  "name": "hnn-deploy-compose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JSDC-GIS/hnn-deploy-compose.git",
+  "author": "jimmg35 <jim60308@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compose:dev:up": "docker-compose -f ./docker-compose.development.yml up -d",
+    "compose:dev:up:build": "docker-compose -f ./docker-compose.development.yml up --build -d"
+  }
+}
