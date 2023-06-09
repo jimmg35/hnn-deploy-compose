@@ -1,3 +1,5 @@
 /static
-/additional_libs
-/geoserver_data
+/geoserver/additional_libs
+/geoserver-dev/geoserver_data
+/database-entrypoint-dev/seed/ndvi2018.sql
+/database-entrypoint-dev/ndvi2018.sql
