@@ -5,14 +5,14 @@ networks:
   hnn-db-dev:
     driver: bridge
 
-volumes:
-  hnn-database-dev:
+# volumes:
+#   hnn-database-dev:
 
 
 services:
 
   hnn-postgres-dev:
-    image: postgis/postgis:14-3.3
+    image: postgis/postgis:12-3.3-alpine
     container_name: hnn-postgres-dev
     environment:
       POSTGRES_USER: ${POSTGRES_USERNAME}
@@ -23,7 +23,7 @@ services:
       PGDATA: /data/postgres
     volumes:
       - ./database-entrypoint-dev:/docker-entrypoint-initdb.d/
-      - hnn-database-dev:/data/postgres
+      # - hnn-database-dev:/data/postgres
     ports:
       - "5432:5432"
     networks:
