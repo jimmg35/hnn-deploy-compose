@@ -7229,3 +7229,2301 @@ Request: getMap
 	Version = 1.1.1
 	ViewParams = null
 	Width = 711
+10 Jun 02:25:03 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+10 Jun 02:25:06 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loading catalog /opt/geoserver_data
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'capitals'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'burg'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'generic'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'dem'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'line'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'grass'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'green'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'poi'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'pophatch'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'point'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'polygon'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'population'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'rain'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'raster'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'restricted'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'cite'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'hnn'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'ne'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'countries'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'coastline'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'disputed'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded style 'populated_places'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'sf'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'sde'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded workspace 'topp'
+10 Jun 02:25:06 CONFIG [org.geoserver] - Loaded coverage store 'ndvi2018', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage 'ndvi2018', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'ndvi2018'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage store 'ndvi2018', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'countries'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer group 'world'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+10 Jun 02:25:08 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'restricted'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'archsites'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'roads'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'streams'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'poi'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'states'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+10 Jun 02:25:09 CONFIG [org.geoserver] - Read catalog in 3.711 s
+10 Jun 02:25:10 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver_data/gwc'.
+10 Jun 02:25:10 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+10 Jun 02:25:10 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+10 Jun 02:25:10 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+10 Jun 02:25:10 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+10 Jun 02:25:10 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+10 Jun 02:25:10 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+10 Jun 02:25:10 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+10 Jun 02:25:10 CONFIG [gwc.layer] - Loaded 29 tile layers in 145.7 ms
+10 Jun 02:25:11 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+10 Jun 02:25:11 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /opt/geoserver_data/, using it as the default prefix.
+10 Jun 02:25:11 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver_data/gwc'.
+10 Jun 02:25:11 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver_data/gwc'.
+10 Jun 02:25:11 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+10 Jun 02:25:11 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+10 Jun 02:25:11 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+10 Jun 02:25:11 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+10 Jun 02:25:11 CONFIG [diskquota.DiskQuotaMonitor] - 29 layers attached to global quota 500.0 MB
+10 Jun 02:25:11 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+10 Jun 02:25:11 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+10 Jun 02:25:11 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+10 Jun 02:25:11 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+10 Jun 02:25:11 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+10 Jun 02:25:11 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl--baaf2fa:1889bd7b185:-8000', enabled
+10 Jun 02:25:11 CONFIG [org.geoserver] - Loaded service 'csw', enabled
+10 Jun 02:25:12 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+10 Jun 02:25:12 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+10 Jun 02:25:12 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+10 Jun 02:25:12 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+10 Jun 02:25:12 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+10 Jun 02:25:13 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+10 Jun 02:25:13 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+10 Jun 02:25:13 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+10 Jun 02:25:17 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+10 Jun 02:25:20 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+10 Jun 02:25:21 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+10 Jun 02:25:21 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+10 Jun 02:25:21 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+10 Jun 02:31:27 INFO   [geoserver.security] - Strong cryptography is available
+10 Jun 02:31:42 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 02:31:42 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost/geoserver/
+	Bbox = SRSEnvelope[121.23812134744999 : 121.35792844985, 24.93580107525 : 25.06508658765]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=121.23812134744999,24.93580107525,121.35792844985,25.06508658765, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 711
+10 Jun 02:31:43 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 02:31:43 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost/geoserver/
+	Bbox = SRSEnvelope[121.23696327209473 : 121.3590145111084, 24.93450164794922 : 25.06633758544922]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.23696327209473,24.93450164794922,121.3590145111084,25.06633758544922, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 02:31:45 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 02:31:46 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost/geoserver/
+	Bbox = SRSEnvelope[121.22340202331543 : 121.3454532623291, 24.927291870117188 : 25.059127807617188]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.22340202331543,24.927291870117188,121.3454532623291,25.059127807617188, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:03:17 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+10 Jun 03:03:20 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loading catalog /opt/geoserver_data
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'burg'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'dem'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'capitals'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'generic'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'grass'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'green'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'poi'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'line'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'point'
+10 Jun 03:03:20 CONFIG [org.geoserver] - Loaded style 'polygon'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'pophatch'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'population'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'rain'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'restricted'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'raster'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'hnn'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'ne'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'coastline'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'countries'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'disputed'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded style 'populated_places'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'cite'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'sf'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'sde'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded workspace 'topp'
+10 Jun 03:03:21 CONFIG [org.geoserver] - Loaded coverage store 'ndvi2018', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage 'ndvi2018', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'ndvi2018'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'countries'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage store 'ndvi2018', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer group 'world'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+10 Jun 03:03:23 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'restricted'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'roads'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'archsites'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'streams'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'poi'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'states'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+10 Jun 03:03:24 CONFIG [org.geoserver] - Read catalog in 3.968 s
+10 Jun 03:03:25 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/geoserver_data/gwc'.
+10 Jun 03:03:25 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+10 Jun 03:03:25 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+10 Jun 03:03:25 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+10 Jun 03:03:25 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+10 Jun 03:03:25 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+10 Jun 03:03:25 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+10 Jun 03:03:25 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+10 Jun 03:03:25 CONFIG [gwc.layer] - Loaded 29 tile layers in 68.49 ms
+10 Jun 03:03:25 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+10 Jun 03:03:25 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /opt/geoserver_data/, using it as the default prefix.
+10 Jun 03:03:25 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/geoserver_data/gwc'.
+10 Jun 03:03:25 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/geoserver_data/gwc'.
+10 Jun 03:03:25 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+10 Jun 03:03:26 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+10 Jun 03:03:26 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+10 Jun 03:03:26 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+10 Jun 03:03:26 CONFIG [diskquota.DiskQuotaMonitor] - 29 layers attached to global quota 500.0 MB
+10 Jun 03:03:26 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl--baaf2fa:1889bd7b185:-8000', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'csw', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+10 Jun 03:03:26 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+10 Jun 03:03:26 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+10 Jun 03:03:27 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+10 Jun 03:03:27 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+10 Jun 03:03:27 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 5 bindable processes in GeoServer specific processes
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+10 Jun 03:03:32 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+10 Jun 03:03:36 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+10 Jun 03:03:36 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+10 Jun 03:03:37 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+10 Jun 03:03:37 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+10 Jun 03:13:45 INFO   [geoserver.security] - Strong cryptography is available
+10 Jun 03:14:01 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:02 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.23812134744999 : 121.35792844985, 24.93580107525 : 25.06508658765]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=121.23812134744999,24.93580107525,121.35792844985,25.06508658765, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:02 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:03 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.23696327209473 : 121.3590145111084, 24.93450164794922 : 25.06633758544922]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.23696327209473,24.93450164794922,121.3590145111084,25.06633758544922, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:05 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:06 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.15327835083008 : 121.39738082885742, 24.881973266601562 : 25.145645141601562]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.15327835083008,24.881973266601562,121.39738082885742,25.145645141601562, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:06 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:06 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.22408866882324 : 121.34613990783691, 24.953384399414062 : 25.085220336914062]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.22408866882324,24.953384399414062,121.34613990783691,25.085220336914062, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:09 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:09 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.25211238861084 : 121.31313800811768, 24.996814727783203 : 25.062732696533203]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.25211238861084,24.996814727783203,121.31313800811768,25.062732696533203, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:10 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:10 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.27306580543518 : 121.28832221031189, 25.02938747406006 : 25.04586696624756]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.27306580543518,25.02938747406006,121.28832221031189,25.04586696624756, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:13 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:14 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.23473167419434 : 121.35678291320801, 24.936904907226562 : 25.068740844726562]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.23473167419434,24.936904907226562,121.35678291320801,25.068740844726562, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:14:16 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:14:16 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.26970767974854 : 121.33073329925537, 24.974756240844727 : 25.040674209594727]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.26970767974854,24.974756240844727,121.33073329925537,25.040674209594727, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:16:52 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:16:53 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.26893520355225 : 121.32996082305908, 24.974327087402344 : 25.040245056152344]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.26893520355225,24.974327087402344,121.32996082305908,25.040245056152344, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:16:53 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:16:53 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.22614860534668 : 121.34819984436035, 24.93295669555664 : 25.06479263305664]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.22614860534668,24.93295669555664,121.34819984436035,25.06479263305664, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:16:54 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:16:54 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.26842021942139 : 121.32944583892822, 24.977073669433594 : 25.042991638183594]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.26842021942139,24.977073669433594,121.32944583892822,25.042991638183594, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:16:59 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:00 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.21962547302246 : 121.34167671203613, 24.926776885986328 : 25.058612823486328]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.21962547302246,24.926776885986328,121.34167671203613,25.058612823486328, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:00 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:00 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.25314235687256 : 121.3141679763794, 24.978961944580078 : 25.044879913330078]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.25314235687256,24.978961944580078,121.3141679763794,25.044879913330078, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:01 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:01 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.2609314918518 : 121.29144430160522, 25.005054473876953 : 25.038013458251953]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.2609314918518,25.005054473876953,121.29144430160522,25.038013458251953, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:05 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:05 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.25279903411865 : 121.31382465362549, 24.979562759399414 : 25.045480728149414]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.25279903411865,24.979562759399414,121.31382465362549,25.045480728149414, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:06 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:06 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.2352466583252 : 121.35729789733887, 24.928836822509766 : 25.060672760009766]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.2352466583252,24.928836822509766,121.35729789733887,25.060672760009766, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:08 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:08 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.16220474243164 : 121.40630722045898, 24.847640991210938 : 25.111312866210938]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.16220474243164,24.847640991210938,121.40630722045898,25.111312866210938, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:09 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:09 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:10 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.288161277771 : 121.34918689727783, 24.98642921447754 : 25.05234718322754]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.288161277771,24.98642921447754,121.34918689727783,25.05234718322754, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:10 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:10 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.2462329864502 : 121.36828422546387, 24.940166473388672 : 25.072002410888672]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.2462329864502,24.940166473388672,121.36828422546387,25.072002410888672, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:10 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.29723787307739 : 121.32775068283081, 25.008831024169922 : 25.041790008544922]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.29723787307739,25.008831024169922,121.32775068283081,25.041790008544922, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:10 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:10 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.3005530834198 : 121.31580948829651, 25.019774436950684 : 25.036253929138184]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.3005530834198,25.019774436950684,121.31580948829651,25.036253929138184, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:11 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:11 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.30222141742706 : 121.30984961986542, 25.025246143341064 : 25.033485889434814]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.30222141742706,25.025246143341064,121.30984961986542,25.033485889434814, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:12 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:12 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.30347937345505 : 121.30729347467422, 25.028014183044434 : 25.03213405609131]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.30347937345505,25.028014183044434,121.30729347467422,25.03213405609131, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:12 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:12 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.30442552268505 : 121.30537904798985, 25.030088871717453 : 25.03111883997917]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.30442552268505,25.030088871717453,121.30537904798985,25.03111883997917, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:13 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:13 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.30243331193924 : 121.30624741315842, 25.028019547462463 : 25.03213942050934]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.30243331193924,25.028019547462463,121.30624741315842,25.03213942050934, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:13 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:13 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.29448056221008 : 121.30973696708679, 25.019752979278564 : 25.036232471466064]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.29448056221008,25.019752979278564,121.30973696708679,25.036232471466064, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:14 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:14 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.28384828567505 : 121.31436109542847, 25.008702278137207 : 25.041661262512207]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.28384828567505,25.008702278137207,121.31436109542847,25.041661262512207, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:15 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:15 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.26258373260498 : 121.32360935211182, 24.98668670654297 : 25.05260467529297]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.26258373260498,24.98668670654297,121.32360935211182,25.05260467529297, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:17:16 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:17:17 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.22014045715332 : 121.34219169616699, 24.942569732666016 : 25.074405670166016]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.22014045715332,24.942569732666016,121.34219169616699,25.074405670166016, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
+10 Jun 03:45:13 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+10 Jun 03:45:14 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:9032/geoserver/
+	Bbox = SRSEnvelope[121.2271785736084 : 121.34922981262207, 24.938793182373047 : 25.070629119873047]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e7f8b162]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetMap, FORMAT=image/jpeg, SRS=EPSG:4326, BBOX=121.2271785736084,24.938793182373047,121.34922981262207,25.070629119873047, VERSION=1.1.1, STYLES=, SERVICE=WMS, WIDTH=711, HEIGHT=768, TRANSPARENT=true, LAYERS=hnn:ndvi2018}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=raster]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 711
