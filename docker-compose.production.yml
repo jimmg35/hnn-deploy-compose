@@ -12,7 +12,7 @@ volumes:
 services:
 
   hnn-nginx:
-    image: hnn-nginx
+    image: jimmg35/hnn-nginx:v0.230614.4
     container_name: hnn-nginx
     ports:
       - 9030:9030
@@ -22,7 +22,7 @@ services:
       - hnn-frontend
 
   hnn-frontend:
-    image: hnn-frontend-next
+    image: jimmg35/hnn-frontend-next:v0.230614.18
     container_name: hnn-frontend
     ports:
       - 3001:3000
@@ -32,7 +32,7 @@ services:
       - hnn-backend
 
   hnn-backend:
-    image: hnn-backend-expres
+    image: jimmg35/hnn-backend-expres:v0.230614.10
     container_name: hnn-backend
     entrypoint: [ "/app/entrypoints/entrypoint.sh" ]
     ports:

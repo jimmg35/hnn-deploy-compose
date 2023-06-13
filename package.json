@@ -8,6 +8,7 @@
   "scripts": {
     "compose:dev:up:backend": "docker-compose -f ./docker-compose.backend.yml -p hnn-backend-dev up -d",
     "compose:dev:up:staging": "docker-compose -f ./docker-compose.staging.yml up -d",
-    "compose:dev:up:build": "docker-compose -f ./docker-compose.staging.yml up --build -d"
+    "compose:dev:up:staging:build": "docker-compose -f ./docker-compose.staging.yml up --build -d",
+    "compose:dev:up:production": "docker-compose -f ./docker-compose.production.yml up -d"
   }
 }
