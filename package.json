@@ -6,8 +6,8 @@
   "author": "jimmg35 <jim60308@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "compose:dev:db:up": "docker-compose -p hnn-db-dev -f ./docker-compose.dev.db.yml up -d",
-    "compose:dev:up": "docker-compose -f ./docker-compose.dev.yml up -d",
-    "compose:dev:up:build": "docker-compose -f ./docker-compose.dev.yml up --build -d"
+    "compose:dev:up:backend": "docker-compose -f ./docker-compose.backend.yml -p hnn-backend-dev up -d",
+    "compose:dev:up:staging": "docker-compose -f ./docker-compose.staging.yml up -d",
+    "compose:dev:up:build": "docker-compose -f ./docker-compose.staging.yml up --build -d"
   }
 }
